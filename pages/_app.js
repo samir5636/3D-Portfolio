@@ -26,8 +26,7 @@ export default function App({ Component, pageProps }) {
 	const title = "Portfolio | Samir Ziani";
 	const description =
 		"Hello! I'm Samir Ziani, a passionate web and mobile developer and problem solver. Welcome to my portfolio";
-	const avatar =
-		"";
+	const avatar = "/assets/avatar-meta.png";
 	const url = "";
 
 	return (
@@ -39,6 +38,10 @@ export default function App({ Component, pageProps }) {
 					name="viewport"
 					content="width=device-width, initial-scale=1.0"
 				/>
+
+				{/* Google site verification */}
+				<meta name="google-site-verification" content="nz6tuOrd_wy9cokeZVBrvAS7NMGfjg97i_CDsRsVIOY" />
+				
 				<meta property="og:title" content={title} />
 				<meta property="og:site_name" content={title}></meta>
 				<meta property="og:description" content={description} />
